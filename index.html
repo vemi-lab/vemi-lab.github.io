@@ -2,12 +2,12 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Today's Date</title>
+	<iframe id="my_iframe" style="display:none;"></iframe>
     <script>
-        let d = new Date();
-        alert("Today's date is " + d);
+        let url = "vemi-lab.github.io/Intersection_Road_Piece.fbx"
+		function Download(url) {
+			document.getElementById('my_iframe').src = url;
+		};
 	</script>
 </head>
 
